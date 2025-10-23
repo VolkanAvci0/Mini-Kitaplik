@@ -1,0 +1,149 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filtre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arama {
+    border-radius: 8px;
+    width: 256px;
+    height: 32px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    background-color: #1a1a1a;
+    color: rgba(255, 255, 255, 0.87);
+    transition: border-color 0.25s;
+}
+
+.arama:hover {
+    border-color: #646cff;
+}
+
+.kategori {
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    background-color: #1a1a1a;
+    color: rgba(255, 255, 255, 0.87);
+    transition: border-color 0.25s;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.5em center;
+    background-size: 1em;
+}
+
+.kategori:hover {
+    border-color: #646cff;
+}
+
+.panel {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    align-items: start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 12px;
+}
+
+.kitap-karti {
+    border: 1px solid #646cff;
+    background-color: rgba(47, 47, 47, 0.4);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.favori-evet {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #646cff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.favori-evet:hover {
+    background-color: #7076f5;
+}
+
+.favori-hayir {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.favori-hayir:hover {
+    background-color: #212121;
+}
+
+.favori-listesi {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.favori-item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.kaldir {
+    background-color: #9745fc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.kaldir:hover {
+    background-color: #b066fc;
+}
